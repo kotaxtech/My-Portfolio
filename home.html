@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meter-reset/2.0/reset.min.css">
+        <link rel="stylesheet" href="./style/style.css">
+        <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+        <script src="./script/script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+       
+
+        <!-- Sidebar/menu 
+        <nav class="" style="" id="mySidebar"><br>
+            <h3 class=""><b>Kota<br>Takahashi</b></h3>
+            <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+            <a href="#" onclick="w3_close()" class="current">PORTFOLIO</a>
+            <a href="#about" onclick="w3_close()" class="">ABOUT ME</a>
+            <a href="#contact" onclick="w3_close()" class="">CONTACT</a>
+        </nav>-->
+
+        <nav>
+            <ul>
+            <li class="current"><a href="#about">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+            </nav>
+        
+
+        <!-- About -->
+        <div class="container" id="about">
+            <div class="content" style="max-width:600px">
+                <h1 class="center"><b>About Me</b></h1>
+                <div class="center">
+                    <img src="./media/profile.JPG" alt="Me" class="" width="300" height="300">
+                </div>
+                <div class="target">
+                    <h2>高橋　滉太</h2>
+                    <p>秋田県立大学大学院　システム科学技術研究科　機械知能システム学専攻に在学中。
+                        大学の講義にてプログラミングの将来性に魅力を感じ、現在は農業の課題をITで解決するスマート農業に関する研究に励んでいます。
+                        また学外では、プログラミングコミュニティに参加しチーム開発でWEBアプリケーションの作成を行っています。
+                    </p>
+                    <p>mail: deeplearning408@gmail.com</p>
+                    <p>tel: </p>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div class="target">
+                    <h2 class="section">Technical Skills</h2>
+                    <p class="skill">C</p>
+                    <div class="">
+                        <div class="" style="">
+                            <p>- 講義にて、変数やポインタの使い方など基礎的な内容を習得しました。</p>
+                            <p>- 手の判別プログラムを作成（グーチョキパー識別）しました。</p>
+                        </div>
+                    </div>
+                    <p class="skill"><i class="fab fa-python"></i> Python</p>
+                    <div class="">
+                        <div class="" style="">
+                            <p>- 研究にて深層学習に触れています。（ライブラリ：Tensorflow, Keras, OpenCV, Chainer, etc）</p>
+                            <p>- 農業の課題をAIで解決するスマート農業に着手しており、<a href="https://github.com/K-out-A/SegumetationTask_of_RiceBlast">セグメンテーション手法を用いて病変部位の抽出</a>を行っています。</p>
+                            <p>- WEBアプリケーションの作成をしています。（フレームワーク：Django）</p>
+                            <p>- 趣味でRaspberryPi等のマイコンを用いて組み込み系・電子工作をしています。</p>
+                        </div>
+                    </div>
+                    <p class="skill">Matlab</p>
+                    <div class="">
+                        <div class="" style="">
+                            <p>- 人の顔を検出するプログラムを作成しました。</p>
+                        </div>
+                    </div>
+                    <p class="skill"><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> HTML・CSS</p>
+                    <div class="">
+                        <div class="" style="">
+                            <p>- WEBサイト・WEBアプリケーションのレイアウトに使用しました。</p>
+                        </div>
+                    </div>
+                    <p class="skill"><i class="fab fa-js-square"></i> JavaScript</p>
+                    <div class="">
+                        <div class="" style="">
+                            <p>- WEBサイト・WEBアプリケーションのアニメーションに使用しました。</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div class="target">
+                    <h2 class="section">WORK</h2>
+                    <div class="white">
+                        <ul class="contents">
+                            <li class="animationTarget">
+                                <a href="https://github.com/K-out-A/MovieRecommend" target="_blank">
+                                    <div>
+                                        <img src="./media/movie_recommend.JPG" alt="">
+                                        <div class="contentsText white">
+                                            <h2>あなたのオススメ<br>映画3選</h2>
+                                            <p>好きな映画を3作品まで他ユーザと共有できるアプリ</p>
+                                        </div>        
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="animationTarget">
+                                <a href="https://github.com/K-out-A/Sharing_hobbies" target="_blank">
+                                    <div>
+                                        <img src="./media/sharing_hobbies.JPG" alt="">
+                                        <div class="contentsText white">
+                                            <h2>趣味共有アプリ</h2>
+                                            <p>チャネル（漫画やスポーツなど）を作り、趣味を発信できるアプリ</p>
+                                        </div>        
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="animationTarget">
+                                <a href="https://github.com/tomohiko9090/STECH_Community" target="_blank">
+                                    <div>
+                                    <img src="./media/network for STECH.png" alt="">
+                                    <div class="contentsText white">
+                                        <h2>Slack内の関係性を<br>可視化できるアプリ</h2>
+                                        <p>Slack内の発言回数や誰との会話が多いかといったデータを用いて、コミュニティ内の関係性を可視化できるアプリ</p>
+                                    </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="animationTarget">
+                                <a href="https://github.com/K-out-A/ToDo-List" target="_blank">
+                                    <div>
+                                        <img src="./media/todo_list.gif" alt="">
+                                        <div class="contentsText white">
+                                            <h2>ToDoアプリ</h2>
+                                            <p>その日やらなければならないタスクをリストで確認できるアプリ。タスクのタイトルと内容、期限日などの情報を入力できる。</p>
+                                        </div>        
+                                    </div>
+                                </a>
+                            </li>                
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="container" id="contact">
+            <div class="content" style="max-width:600px">
+                <h1 class="center"><b>Contact Me</b></h1>
+                <p>ご連絡ください。※実際には送れません。</p>
+                <form action="" target="_blank">
+                <div class="section">
+                    <label>お名前</label><br>
+                    <input class="" type="text" name="Name" required>
+                </div>
+                <div class="section">
+                    <label>メールアドレス</label><br>
+                    <input class="" type="text" name="Email" required>
+                </div>
+                <div class="section">
+                    <label>内容</label><br>
+                    <input class="" type="text" name="Message" required>
+                </div>
+                <button type="submit" class="">送信</button>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="">
+            <div class="container">
+                <h1 class="center">INFO</h1>
+                <p>QiitaやGithubもよろしくお願いします。</p>
+                <p>
+                    <a href="https://qiita.com/deeplearning408">
+                        <span class="fa-stack fa-2x" style="color:#4cb10d">
+                            <i class="fas fa-square fa-stack-1x"></i>
+                            <i class="fas fa-search fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </p>
+                <p>
+                    <a href="https://github.com/K-out-A">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                </p>
+                    
+                </div>
+            <div class="center">Presented by Kota Takahashi</div>
+        </footer>
+        
+        <script>
+            // Script to open and close sidebar
+            function w3_open() {
+              document.getElementById("mySidebar").style.display = "block";
+              document.getElementById("myOverlay").style.display = "block";
+            }
+            
+            function w3_close() {
+              document.getElementById("mySidebar").style.display = "none";
+              document.getElementById("myOverlay").style.display = "none";
+            }
+            
+            // Modal Image Gallery
+            function onClick(element) {
+              document.getElementById("img01").src = element.src;
+              document.getElementById("modal01").style.display = "block";
+              var captionText = document.getElementById("caption");
+              captionText.innerHTML = element.alt;
+            }
+            
+        </script>
+         <script
+         src="https://code.jquery.com/jquery-3.4.1.js"
+         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+         crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,152 @@
+#about{
+    background-color: rgba(59, 58, 53, 0.836);
+    color: whitesmoke;
+    padding-bottom:150px;
+
+}
+#contact{
+
+}
+
+.white{
+    color:antiquewhite;
+}
+a:link {
+    color:antiquewhit
+} 
+
+footer{
+    background-color: rgba(59, 58, 53, 0.836);
+    color: whitesmoke;
+}
+
+.container{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+
+.content{
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.target{
+    margin-bottom: 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+.skill{
+    font-size: 25px;
+    color: antiquewhite;
+}
+.section{
+    margin-bottom: 10px;
+}
+.section input,button{
+    width: 600px;
+}
+ul{
+    list-style: none;
+}
+.menubtn{
+    width:100%;
+    max-width: 50px;
+}
+.w1000{
+    max-width:1000px;
+    margin: 0 auto;
+}
+nav{
+    background-color:rgb(255, 255, 255);
+    padding:20px 3%;
+}
+
+/* nabver */
+nav ul{
+    display: table;
+    margin: 0 auto;
+    padding: 0 ;
+    width: 80%;
+    text-align: center;
+}
+nav li{
+    display: table-cell;
+    min-width: 50px;
+}
+nav a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #555;
+    padding-bottom: 5px;
+}
+nav li.current{
+    border-bottom: 3px solid #92D050;
+}
+nav li:hover{
+    color: #f5a63f;
+    border-bottom: 3px solid #f8b945;
+}
+
+.contents li{
+    position:relative;
+}
+
+.contents li:not(:first-of-type){
+    margin-top:200px;
+}
+
+/* 奇数番目の文字は右寄せ */
+.contents li:nth-of-type(odd) .contentsText{
+    right:0;
+}
+
+.contents li:nth-of-type(odd) p{
+    align-items: flex-start;
+}
+
+/* 偶数番目の画像は右寄せ */
+.contents li:nth-of-type(even) img{
+    margin-left:auto;
+}
+
+
+.contentsText{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position:absolute;
+    top:40px;
+}
+
+.contents h2{
+    font-size: 50px;
+    font-weight: bold;
+    white-space: nowrap;
+    background-color: rgba(20,20,20,.8);
+    padding: 10px, 20px;
+    line-height:1.4;
+    letter-spacing: .05em;
+    border-radius: 5px;
+}
+
+.contents p{
+    font-size: 14px;
+    background-color: #555;
+    padding: 15px;
+    line-height:1.6;
+    border-radius: 5px;
+    margin-top:30px;
+    max-width: 340px;
+}
+
+.contents img{
+    width:65%;
+    border-radius: 5px;
+    display: block;
+}
